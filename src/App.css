@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-25: 25px;
+  --font-size-30: 30px;
+  --font-size-45: 45px;
+  --font-size-48: 48px;
+  --font-size-90: 90px;
+}
+
+.ff_Read_Hat_text {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.ff_Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ff_Anybody {
+  font-family: 'Anybody', cursive;
+}
+
+.fsize_16 {
+  font-size: var(--font-size-16);
+}
+
+.fsize_18 {
+  font-size: var(--font-size-18);
+}
+
+.fsize_20 {
+  font-size: var(--font-size-20);
+}
+
+.fsize_22 {
+  font-size: var(--font-size-22);
+}
+
+.fsize_25 {
+  font-size: var(--font-size-25);
+}
+
+.fsize_30 {
+  font-size: var(--font-size-30);
+}
+
+.fsize_45 {
+  font-size: var(--font-size-45);
+}
+
+.fsize_48 {
+  font-size: var(--font-size-48);
+}
+
+.fsize_90 {
+  font-size: var(--font-size-90);
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
