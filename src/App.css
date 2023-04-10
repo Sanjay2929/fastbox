@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap");
 
 :root {
   --font-size-16: 16px;
@@ -10,18 +10,31 @@
   --font-size-45: 45px;
   --font-size-48: 48px;
   --font-size-90: 90px;
+
+  /* Colors */
+  --clr-gray: #5a5f6a;
+  --clr-green: #3cbd96;
+  --clr-light-green: #e3f9e7;
+  --clr-dark-green: #204945;
+  --clr-light-gray: #777e90;
+  --clr-extra-lightgreen:#E2F5EF;
+  --clr-white:#ffffff;
+  --clr-black:#000000;
+  --clr-almost-black:#23262F;
+  --clr-c1e-green:#C1EADD;
+  --clr-ebf-green:#EBF6ED;
 }
 
 .ff_Read_Hat_text {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 .ff_Poppins {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .ff_Anybody {
-  font-family: 'Anybody', cursive;
+  font-family: "Anybody", cursive;
 }
 
 .fsize_16 {
@@ -74,4 +87,38 @@
 
 .fw_700 {
   font-weight: 700;
+}
+
+.clr_gray{
+  color: var(--clr-gray);
+}
+.clr_green{
+  color: var(--clr-green);
+}
+.clr_light_green{
+  color: var(--clr-light-green);
+}
+.clr_dark_green{
+  color: var(--clr-dark-green);
+}
+.clr_light_gray{
+  color: var(--clr-light-gray);
+}
+.clr_extra_lightgreen{
+  color: var(--clr-extra-lightgreen);
+}
+.clr_white{
+  color: var(--clr-white);
+}
+.clr_black{
+  color: var(--clr-black);
+}
+.clr_almost_black{
+  color: var(--clr-almost-black);
+}
+.clr_c1e_green{
+  color: var(--clr-c1e-green);
+}
+.clr_ebf_green{
+  color: var(--clr-ebf-green);
 }
