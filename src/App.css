@@ -1,7 +1,7 @@
 * {
-  text-decoration: none;
-  list-style-type: none;
-  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
   padding: 0;
   margin: 0;
 }
@@ -143,4 +143,10 @@
 }
 .bg_ebf_green {
   background-color: var(--clr-ebf-green);
+}
+.gap_71{
+  gap: 71px;
+}
+.gap_38{
+  gap: 38px;
 }
