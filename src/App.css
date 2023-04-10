@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap');
 
 :root {
-  --font-family-Read-Hat-text: 'Red Hat Text', sans-serif;
-  --font-family-Poppins: 'Poppins', sans-serif;
-  --font-family-Anybody: 'Anybody', sans-serif;
   --font-size-16: 16px;
   --font-size-18: 18px;
   --font-size-20: 20px;
@@ -13,22 +10,18 @@
   --font-size-45: 45px;
   --font-size-48: 48px;
   --font-size-90: 90px;
-  --fw-400: 400;
-  --fw-500: 500;
-  --fw-600: 600;
-  --fw-700: 700;
 }
 
 .ff_Read_Hat_text {
-  font-family: var(--font-family-Read-Hat-text);
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .ff_Poppins {
-  font-family: var(--font-family-Poppins);
+  font-family: 'Poppins', sans-serif;
 }
 
 .ff_Anybody {
-  font-family: var(--font-family-Anybody);
+  font-family: 'Anybody', cursive;
 }
 
 .fsize_16 {
@@ -68,17 +61,17 @@
 }
 
 .fw_400 {
-  font-weight: var(--fw-400);
+  font-weight: 400;
 }
 
 .fw_500 {
-  font-weight: var(--fw-500);
+  font-weight: 500;
 }
 
 .fw_600 {
-  font-weight: var(--fw-600);
+  font-weight: 600;
 }
 
 .fw_700 {
-  font-weight: var(--fw-700);
+  font-weight: 700;
 }
