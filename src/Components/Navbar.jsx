@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <Nav>
-        <Container>
+        <Container className="containerxxxl">
           <div className="d-flex justify-content-between align-items-center">
             <div className="d-flex align-items-center">
               <img src={logo} alt="logo" />
@@ -16,24 +16,36 @@ const Navbar = () => {
             </div>
             <ul className="d-flex align-items-center gap_71">
               <li>
-                <a href="#">Home</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">Tracking</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Tracking
+                </a>
               </li>
               <li>
-                <a href="#">Shipping</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Shipping
+                </a>
               </li>
               <li>
-                <a href="#">Locations</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Locations
+                </a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Support
+                </a>
               </li>
             </ul>
             <ul className="d-flex align-items-center gap_38">
               <li>
-                <a href="#">Signin</a>
+                <a className="fsize_20 fw_400 clr_gray" href="#">
+                  Signin
+                </a>
               </li>
               <li>
                 <Greenbutton />
