@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-// import map from '../assets/img/png/map.webp'
+import map from '../Assets/img/png/map.webp'
 
 const Gps = () => {
   return (
@@ -18,7 +18,7 @@ const Gps = () => {
                 </Col>
                 <Col lg={5}>
                     <div className='position_absolute'>
-                        {/* <img src={map} alt="GPS" className='w-100' /> */}
+                        <img src={map} alt="GPS" className='w-100' />
                     </div>
                 </Col>
             </Row>

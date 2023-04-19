@@ -399,6 +399,7 @@
   .display_none {
     display: flex !important;
   }
+}
   .bg_white {
   background-color: var(--clr-white);
 }
@@ -410,7 +411,7 @@
 .gap_38 {
   gap: 38px;
 }
-}
+
 
 .Our_Specialties_box {
   box-shadow: 0px -1px 15px rgba(60, 189, 150, 0.15);
