@@ -5,6 +5,15 @@
   padding: 0;
   margin: 0;
 }
+@media (min-width:1400px) {
+  .containerxxxl {
+  max-width: 1620px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+}
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap");
 
 :root {
@@ -33,7 +42,7 @@
 }
 
 .ff_Read_Hat_text {
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "Red Hat Text", sans-serif !important;
 }
 
 .ff_Poppins {
@@ -53,7 +62,7 @@
 }
 
 .fsize_20 {
-  font-size: var(--font-size-20);
+  font-size: var(--font-size-20) !important;
 }
 
 .fsize_22 {
@@ -81,7 +90,7 @@
 }
 
 .fw_400 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .fw_500 {
@@ -141,7 +150,7 @@
 }
 
 .padding_10_27 {
-  padding: 10px 27px;
+  padding: 10px 27px !important;
 }
 
 .bg_lightGreen {
@@ -149,7 +158,7 @@
 }
 
 .bg_green {
-  background-color: var(--clr-green);
+  background-color: var(--clr-green) !important;
 }
 
 .bg_extra_lightGreen {
@@ -159,11 +168,9 @@
 .bg_ebf_green {
   background-color: var(--clr-ebf-green);
 }
-
-.gap_71 {
+.gap_71{
   gap: 71px;
 }
-
-.gap_38 {
+.gap_38{
   gap: 38px;
 }
