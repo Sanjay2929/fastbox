@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import calculatemen from '../assets/img/png/calculatemen.png'
+// import calculatemen from '../assets/img/png/calculatemen.png'
 import Btncal from './Btncal'
 
 const Calculateprice = () => {
@@ -15,7 +15,7 @@ const Calculateprice = () => {
                     <p className='ff_Anybody fw_700 fsize_48 clr_almost_black'>Calculate your price</p>
                     <p className='ff_Read_Hat_text fw_400 fsize_22 clr_light_gray w_492'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
                     <div className='position_absolute bottom-0'>
-                        <img className='w-50' src={calculatemen} alt="calculatmen" />
+                        {/* <img className='w-50' src={calculatemen} alt="calculatmen" /> */}
                     </div>
                 </Col>
                 <Col lg={6} className='bg_white bradius_46 p-5'>
