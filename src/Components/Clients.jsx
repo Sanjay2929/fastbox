@@ -22,11 +22,9 @@ const Clients = () => {
                         <span  className='ff_Anybody fw_700 fsize_22 clr_almost_black'>
                             Adam Smith
                         </span>
-                        <a href="">
                             <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2 2.11133L14 14.1113L2 26.1113" stroke="#3CBD96" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                        </a>
                     </div>
                     <div className='d-flex gap-5 align-items-center clients_bg mt-4'>
                         <img src={sofia} alt="Sofia Caralino" />

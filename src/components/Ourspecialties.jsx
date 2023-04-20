@@ -26,7 +26,7 @@ function Ourspecialties() {
             </Row>
             <Row className='pt-5 mt-3'>
                 <Col lg={4}>
-                    <div className='Our_Specialties_box d-flex gap-5 h-100'>
+                    <div className='Our_Specialties_box d-flex gap-5 h-100 '>
                         <div>
                             <p className='ff_Poppins fw_700 fsize_45 clr_c1e_green'>01</p>
                         </div>
@@ -37,7 +37,7 @@ function Ourspecialties() {
                     </div>
                 </Col>
                 <Col lg={4}>
-                    <div className='Our_Specialties_box d-flex gap-5 h-100'>
+                    <div className='Our_Specialties_box d-flex gap-5 h-100 mt-4 mt-lg-0'>
                         <div>
                             <p className='ff_Poppins fw_700 fsize_45 clr_c1e_green'>02</p>
                         </div>
@@ -48,7 +48,7 @@ function Ourspecialties() {
                     </div>
                 </Col>
                 <Col lg={4}>
-                    <div className='Our_Specialties_box d-flex gap-5 h-100'>
+                    <div className='Our_Specialties_box d-flex gap-5 h-100 mt-5 mt-lg-0 '>
                         <div>
                             <p className='ff_Poppins fw_700 fsize_45 clr_c1e_green'>03</p>
                         </div>
