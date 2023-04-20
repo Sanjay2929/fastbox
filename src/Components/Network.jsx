@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import van from "../assets/img/png/fastbox_van.png";
+import van from "../Assets/img/png/fastbox_van.png";
 import Greenbutton from "./Greenbutton"
 
 const Network = () => {

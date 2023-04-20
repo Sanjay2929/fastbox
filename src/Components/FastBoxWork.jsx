@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import calender from "../assets/img/png/calender.png";
-import delivery_plan from "../assets/img/png/delivery_plan.png";
-import packing_box from "../assets/img/png/packing_box.png";
-import calentransport_truckder from "../assets/img/png/transport_truck.png";
+import calender from "../Assets/img/png/calender.png";
+import delivery_plan from "../Assets/img/png/delivery_plan.png";
+import packing_box from "../Assets/img/png/packing_box.png";
+import calentransport_truckder from "../Assets/img/png/transport_truck.png";
 import Slider from "react-slick";
 
 

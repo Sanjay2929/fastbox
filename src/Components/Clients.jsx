@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import adam from '../assets/img/png/adam.png'
-import sofia from '../assets/img/png/sofia.png'
-import marfile from '../assets/img/png/marfile.png'
+import adam from '../Assets/img/png/adam.png'
+import sofia from '../Assets/img/png/sofia.png'
+import marfile from '../Assets/img/png/marfile.png'
 
 const Clients = () => {
   return (

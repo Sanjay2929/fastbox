@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import logo from '../assets/img/png/logo.png'
-import fastbox from '../assets/img/png/Fast-box.png'
-import footerimg from '../assets/img/png/footer.png'
+import logo from '../Assets/img/png/logo.png'
+import fastbox from '../Assets/img/png/Fast-box.png'
+import footerimg from '../Assets/img/png/footer.png'
 
 const Footer = () => {
   return (
