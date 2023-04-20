@@ -2,10 +2,11 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import logo from '../assets/img/png/logo.png'
 import fastbox from '../assets/img/png/Fast-box.png'
+import footerimg from '../assets/img/png/footer.png'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='position-relative'>
         <Container/>
         <Row/>
         <Col/>
@@ -93,6 +94,9 @@ const Footer = () => {
                         </svg>
                     </a>
                 </div>
+            </div>
+            <div className='position-absolute bottom-0 start-0 d-none d-lg-block'>
+                <img src={footerimg} alt="bg footer" />
             </div>
         </Container>
     </div>

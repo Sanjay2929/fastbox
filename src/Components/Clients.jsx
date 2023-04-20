@@ -4,7 +4,6 @@ import adam from '../assets/img/png/adam.png'
 import sofia from '../assets/img/png/sofia.png'
 import marfile from '../assets/img/png/marfile.png'
 
-
 const Clients = () => {
   return (
     <div>
@@ -74,7 +73,7 @@ const Clients = () => {
                         </div>
                     </div>
                 </Col>
-            </Row>
+            </Row>          
         </Container>
     </div>
   )
