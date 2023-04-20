@@ -18,16 +18,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:wght@400;500;600;700&display=swap");
 
 :root {
-  --font-size-16: 16px;
-  --font-size-18: 18px;
-  --font-size-20: 20px;
-  --font-size-22: 22px;
-  --font-size-25: 25px;
-  --font-size-30: 30px;
-  --font-size-45: 45px;
-  --font-size-48: 48px;
-  --font-size-80: 80px;
-  --font-size-90: 90px;
+  --font-size-16: 14px;
+  --font-size-18: 16px;
+  --font-size-20: 18px;
+  --font-size-22: 18px;
+  --font-size-25: 22px;
+  --font-size-30: 25px;
+  --font-size-45: 28px;
+  --font-size-48: 30px;
+  --font-size-80: 30px;
+  --font-size-90: 35px;
 
   /* Colors */
   --clr-gray: #5a5f6a;
@@ -35,12 +35,12 @@
   --clr-light-green: #e3f9e7;
   --clr-dark-green: #204945;
   --clr-light-gray: #777e90;
-  --clr-extra-lightgreen: #E2F5EF;
+  --clr-extra-lightgreen: #e2f5ef;
   --clr-white: #ffffff;
   --clr-black: #000000;
-  --clr-almost-black: #23262F;
-  --clr-c1e-green: #C1EADD;
-  --clr-ebf-green: #EBF6ED;
+  --clr-almost-black: #23262f;
+  --clr-c1e-green: #c1eadd;
+  --clr-ebf-green: #ebf6ed;
 }
 
 .ff_Read_Hat_text {
@@ -156,6 +156,10 @@
 .padding_10_27 {
   padding: 10px 27px !important;
 }
+.border_green {
+  border: 5px solid var(--clr-green);
+  padding: 17px 30px 17px 30px;
+}
 
 .bg_lightGreen {
   background-color: var(--clr-light-green);
@@ -198,6 +202,9 @@
 .overflow_x_hidden {
   overflow-x: hidden;
 }
+.html .body {
+  overflow-x: hidden;
+}
 .bg_hero {
   background-image: url(./Assets/img/png/cyclemen-bg.png);
   background-repeat: no-repeat;
@@ -224,24 +231,26 @@
 }
 .van_bg {
   width: 475px;
-  height: 611px;
+  height: 100%;
   background: #ebf6ed;
   border-radius: 0px 36px 36px 0px;
   z-index: 0;
 }
-.z_index_1{
+.z_index_1 {
   z-index: 1;
 }
-.van_fastbox{
-  animation: van1 2s ease-in-out infinite 5s alternate-reverse ;
- 
+.z_3 {
+  z-index: 3;
+}
+.van_fastbox {
+  animation: van1 5s ease-in-out infinite 5s;
 }
 @keyframes van1 {
-  0%{
-    left: -500px;
+  0% {
+    left: -120%;
   }
-  100%{
-    left: 0;
+  100% {
+    left: 130%;
   }
 }
 @media (min-width: 576px) {
@@ -304,10 +313,10 @@
 @media (min-width: 992px) {
   .cyclist {
     position: absolute;
-    bottom: -23px;
-    right: -174px;
-    scale: 0.65;
+    bottom: 0;
+    right: -63px;
     z-index: 0;
+    max-width: 500px;
   }
   .gap_71 {
     gap: 22px;
@@ -315,31 +324,60 @@
   .gap_38 {
     gap: 10px;
   }
+  .van_fastbox {
+    animation: van1 2s ease-in-out infinite 5s alternate-reverse;
+  }
+  @keyframes van1 {
+    0% {
+      left: -500px;
+    }
+    100% {
+      left: 0;
+    }
+  }
 }
 @media (min-width: 1200px) {
   .cyclist {
     position: absolute;
-    bottom: -51px;
-    right: -177px;
-    scale: 0.75;
+    bottom: 0;
+    right: -63px;
+    max-width: 700px;
     z-index: 0;
+  }
+  .min_100vh {
+    min-height: 100vh;
+  }
+  .gap_71 {
+    gap: 31px;
+  }
+  .gap_38 {
+    gap: 10px;
+  }
+  .border_green {
+    border: 5px solid var(--clr-green);
+    padding: 21px 42px 21px 41px;
   }
 }
 @media (min-width: 1400px) {
   .cyclist {
     position: absolute;
-    bottom: -23px;
+    top: 58px;
+    max-width: 956px;
     right: -90px;
-    scale: 0.95;
     z-index: 0;
   }
+
   .gap_71 {
     gap: 71px;
   }
   .gap_38 {
     gap: 38px;
   }
+  .lh_110 {
+    line-height: 110px;
+  }
 }
+
 @media (max-width: 992px) {
   .Width_100 {
     width: 100%;
@@ -354,19 +392,8 @@
   top: 5%;
   left: 49%;
 }
-.menuIcon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 25px;
-}
-.menuIcon > span {
-  background-color: black;
-  width: 100%;
-  height: 5px;
-  position: relative;
-  z-index: 5;
+.z_11 {
+  z-index: 11;
 }
 @media (max-width: 992px) {
   .d_none {
@@ -384,15 +411,16 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    z-index: 1;
+    z-index: 10;
     line-height: 4;
+    transition: all linear 0.3s;
   }
   .sm_view {
     display: flex;
     flex-direction: column !important;
     align-items: center;
   }
-  #check:checked ~ .nav_left0 {
+  .mob_view.nav_left0 {
     left: 0 !important;
   }
 
@@ -400,18 +428,9 @@
     display: flex !important;
   }
 }
-  .bg_white {
+.bg_white {
   background-color: var(--clr-white);
 }
-
-.gap_71 {
-  gap: 71px;
-}
-
-.gap_38 {
-  gap: 38px;
-}
-
 
 .Our_Specialties_box {
   box-shadow: 0px -1px 15px rgba(60, 189, 150, 0.15);
@@ -422,7 +441,6 @@
 .w_492 {
   max-width: 492px;
 }
-
 
 .cal_icon_box {
   background-color: var(--clr-green);
@@ -436,7 +454,6 @@
 
 .w_45 {
   width: 45%;
-
 }
 
 .btncal {
@@ -446,7 +463,7 @@
 }
 
 .slide_more::after {
-  content: ' ';
+  content: " ";
   position: absolute;
   border: 1px solid white;
   opacity: 0.7;
@@ -456,7 +473,7 @@
 }
 
 .slide_more::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   border: 1px solid white;
   opacity: 0.7;
@@ -469,79 +486,78 @@
   max-width: 810px;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .position_absolute {
     position: absolute;
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .bradius_46 {
     border-radius: 46px;
   }
+  .process_work::after {
+    content: "";
+    height: 75%;
+    width: 1px;
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+    position: absolute;
+    right: 0px;
+    transform: translateY(12.5%);
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 576px) {
+  .white_box .slider_box::after {
+    content: "";
+    height: 100%;
+    width: 8px;
+    background-color: white;
+    position: absolute;
+    right: -1px;
+    top: 0;
+  }
+  .white_box .slider_box::before {
+    content: "";
+    height: 100%;
+    width: 8px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    z-index: 3;
+  }
+}
 
 /* Counter app */
-.bg_dark_white{
-  background-color: #F6F6F6;
+.bg_dark_white {
+  background-color: #f6f6f6;
 }
 
-.addbtn{
-  background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+.addbtn {
+  background: linear-gradient(97.42deg, #128dff -4.95%, #1444ef 109.04%);
   border-radius: 4px;
   border: none;
   outline: none;
   padding: 13px 35px;
   color: white;
-  
 }
 
 .counterbox {
   width: 460px;
   height: 228px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
 
-.text{
+.text {
   color: #808080;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
 }
 
-.first{
+.first {
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;

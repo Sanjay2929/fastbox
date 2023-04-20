@@ -10,34 +10,31 @@ import orangestar from "../Assets/img/png/orange_star.png";
 const Header = () => {
   return (
     <>
-      <header className=" d-flex min-vh-100  flex-column overflow_x_hidden bg_hero">
+      <header className=" d-flex min_100vh  flex-column overflow-hidden bg_hero">
         <Navbar />
         <div className=" position-absolute top-0 Z_index_negative3 d-md-block d-none ">
           <img src={green_bg_spot} alt="img" />
         </div>
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative ">
-          <div className=" cyclist">
-            <img className=" Width_100" src={Mencycle} alt="delivery boy" />
-          </div>
           <div className=" position-absolute greenstar">
             <img src={greenstar} alt="star" />
           </div>
           <div className="position-absolute orangestar">
             <img src={orangestar} alt="star" />
           </div>
-          <Container className=" py-5 position-relative z-1">
+          <Container className=" py-5 position-relative z_3">
             <Row className="py-lg-5">
               <Col lg={8} className="pb-5">
-                <h2 className="fsize_90 fw_700 ff_Anybody clr_dark_green">
+                <h2 className="fsize_90 fw_700 ff_Anybody clr_dark_green pb-xxl-5 pb-4 lh_110">
                   Largest and reliable courier service{" "}
                 </h2>
-                <h2 className="fsize_80 fw_700 ff_Anybody clr_dark_green pb-5">
-                  in your city
+                <h2 className="fsize_80 fw_700 ff_Anybody clr_dark_green ">
+                  <span className="border_green mb-5 ">in your city</span>
                 </h2>
-                <p className="fw_400 fsize_25 clr_light_gray ff_Read_Hat_text pb-5 mb-4">
+                <p className="fw_400 fsize_25 clr_light_gray ff_Read_Hat_text py-xxl-5 mt-5 mb-4">
                   Duis aute irure dolor in reprehenderit in voluptate cillum
                   dolore
-                  <span className="d-sm-block">eu fugiat nulla pariatur.</span>
+                  <span className="d-xxl-block ">eu fugiat nulla pariatur.</span>
                 </p>
                 <div className="mt-3 border-0 max_w661 d-flex justify-content-between bg_extra_lightGreen border_radious10 flex-column flex-sm-row">
                   <input
@@ -52,6 +49,9 @@ const Header = () => {
               </Col>
             </Row>
           </Container>
+          <div className=" cyclist">
+            <img className=" w-100" src={Mencycle} alt="delivery boy" />
+          </div>
         </section>
       </header>
     </>

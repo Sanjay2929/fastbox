@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Nav } from "react-bootstrap";
 import logo from "../Assets/img/png/logo.png";
 import fastbox from "../Assets/img/png/Fast-box.png";
 import Greenbutton from "./Greenbutton";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { GiCrossedBones } from "react-icons/gi";
 
 const Navbar = () => {
+  const [first, setfirst] = useState(true);
+  function showUl() {
+    setfirst(!first);
+  }
+  if (!first) {
+    document.body.classList.add("overflow-hidden")
+  }
+  else {
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <>
       <Nav>
@@ -14,13 +26,18 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
               <img src={fastbox} alt="fastbox" />
             </div>
-            <input type="checkbox" className="d-none" id="check" />
-            <label htmlFor="check" className=" d-lg-none d-flex menuIcon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-            <div className="d-flex align-items-center w-100 mob_view nav_left0">
+            <div className=" d-lg-none z_11">
+              <h2 onClick={showUl}>
+                {first ? <HiOutlineMenuAlt3 /> : <GiCrossedBones />}
+              </h2>
+            </div>
+            <div
+              className={
+                first
+                  ? "d-flex align-items-center w-100 mob_view"
+                  : " d-flex align-items-center w-100 mob_view nav_left0"
+              }
+            >
               <ul className="d-flex align-items-center gap_71 mb-0 w-100 justify-content-center sm_view">
                 <li>
                   <a className="fsize_20 fw_400 clr_gray" href="#">
@@ -55,7 +72,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <Greenbutton />
+                  <Greenbutton Green_text="Register" />
                 </li>
               </ul>
             </div>

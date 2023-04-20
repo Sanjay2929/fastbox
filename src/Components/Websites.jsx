@@ -64,22 +64,22 @@ const Websites = () => {
       <div className=" bg_lightGreen">
         <Container className=" py-4 mb-5">
           <Slider {...settings}>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={airtable} alt="img" />
             </div>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={sketch} alt="img" />
             </div>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={dribble} alt="img" />
             </div>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={slack} alt="img" />
             </div>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={livechat} alt="img" />
             </div>
-            <div className="py-5 px-5">
+            <div className="py-sm-5 py-3 px-5">
               <img className="w-100" src={gitlab} alt="img" />
             </div>
           </Slider>

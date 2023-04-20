@@ -6,11 +6,11 @@ import Greenbutton from "./Greenbutton"
 const Network = () => {
   return (
     <>
-      <section className="py-4 my-2 position-relative">
-        <div className="van_bg position-absolute top-0 start-0 "></div>
-        <Container className="py-5">
+      <section className="py-sm-4 my-2 position-relative overflow_x_hidden">
+        <div className="van_bg position-absolute top-0 start-0 d-lg-block d-none"></div>
+        <Container className="py-sm-5">
           <Row className=" align-items-center py-5 justify-content-between">
-            <Col lg={5}>
+            <Col lg={6} xxl={5}>
               <img
                 className=" position-relative z_index_1 w-100 van_fastbox"
                 src={van}
@@ -18,7 +18,7 @@ const Network = () => {
               />
             </Col>
             <Col lg={6}>
-              <h3 className="fsize_48 ff_Anybody clr_dark_green fw_700 pb-5 mb-0">
+              <h3 className="fsize_48 ff_Anybody clr_dark_green fw_700 pb-xl-5 pb-3 mb-0">
                 We Have the largest Network
               </h3>
               <p className="fsize_22 clr_light_gray ff_Read_Hat_text fw_400   mb-0">
@@ -31,8 +31,8 @@ const Network = () => {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <div className="pt-5">
-                <Greenbutton />
+              <div className="pt-xl-5 pt-3">
+                <Greenbutton Green_text="Learn More" />
               </div>
             </Col>
           </Row>
