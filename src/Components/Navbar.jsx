@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Nav } from "react-bootstrap";
-import logo from "../Assets/img/png/logo.png";
-import fastbox from "../Assets/img/png/Fast-box.png";
+import logo from "../assets/img/png/logo.png";
+import fastbox from "../assets/img/png/Fast-box.png";
 import Greenbutton from "./Greenbutton";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { GiCrossedBones } from "react-icons/gi";

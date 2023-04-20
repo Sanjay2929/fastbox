@@ -1,10 +1,10 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import Mencycle from "../Assets/img/png/cyclemen.png";
+import Mencycle from "../assets/img/png/cyclemen.png";
 import Navbar from "./Navbar";
-import green_bg_spot from "../Assets/img/png/hero_bg_green_spot.png";
-import greenstar from '../Assets/img/png/green_star.png'
-import orangestar from "../Assets/img/png/orange_star.png";
+import green_bg_spot from "../assets/img/png/hero_bg_green_spot.png";
+import greenstar from '../assets/img/png/green_star.png'
+import orangestar from "../assets/img/png/orange_star.png";
 
 
 const Header = () => {

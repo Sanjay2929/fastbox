@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import calculatemen from '../Assets/img/png/calculatemen.png'
+import calculatemen from '../assets/img/png/calculatemen.png'
 import Btncal from './Btncal'
 
 const Calculateprice = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import map from '../Assets/img/png/map.webp'
+import map from '../assets/img/png/map.webp'
 
 const Gps = () => {
   return (

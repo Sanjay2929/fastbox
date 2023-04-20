@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import airtable from "../Assets/img/svg/airtable.svg";
-import sketch from "../Assets/img/svg/sketch.svg";
-import dribble from "../Assets/img/svg/dribble.svg";
-import slack from "../Assets/img/svg/slack.svg";
-import livechat from "../Assets/img/svg/livechat.svg";
-import gitlab from "../Assets/img/svg/gitlab.svg";
+import airtable from "../assets/img/svg/airtable.svg";
+import sketch from "../assets/img/svg/sketch.svg";
+import dribble from "../assets/img/svg/dribble.svg";
+import slack from "../assets/img/svg/slack.svg";
+import livechat from "../assets/img/svg/livechat.svg";
+import gitlab from "../assets/img/svg/gitlab.svg";
 import Slider from "react-slick";
 
 const Websites = () => {
