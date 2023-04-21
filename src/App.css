@@ -221,6 +221,7 @@
   background-repeat: no-repeat;
   background-position-x: 100%;
 }
+
 .Z_index_negative3 {
   z-index: -3;
 }
@@ -546,33 +547,15 @@
   padding: 31px 40px;
 }
 
-.clients_1 {
-  background: linear-gradient(90deg, #E3F9E7 0%, rgba(227, 249, 231, 0) 100%);
-  border-radius: 15px;
-  padding: 31px 40px;
-  width: 554px;
-  height: 149px;
-  transition: all 0.3s linear;
-}
-
 .clients_detalis_bg {
   background: #E3F9E7;
   border-radius: 0px 21px 21px 21px;
 }
 
-.clients_detalis {
-  background: #E3F9E7;
-  border-radius: 0px 21px 21px 21px;
-  width: 1099px;
-  height: 497px;
-  opacity: 0;
-  transition: all 0.5s linear;
-}
-
 .clients_bg:hover {
   background: linear-gradient(270deg, #E3F9E7 0%, rgba(227, 249, 231, 0) 100%);
   border-radius: 0;
-  width: 108%;
+  
 }
 
 .subscribe_box input {
