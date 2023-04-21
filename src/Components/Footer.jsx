@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </Col>
                 <Col xs={12} md={6} xl={3} className='mt-5'>
-                    <div className='border_right px-xxl-5 position-relative'>
+                    <div className='border_right ps-xxl-5 position-relative'>
                         <p className='ff_Anybody fw_700 fsize_22 clr_dark_green'>Contact us</p>
                         <p className='ff_Read_Hat_text fw_400 fsize_18 clr_light_gray pt-md-5'>
                             <svg className='me-3' width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ const Footer = () => {
                                 <path d="M14.75 14.75H3.5C2.125 14.75 1 13.625 1 12.25V3.5C1 2.125 2.125 1 3.5 1H14.75C16.125 1 17.25 2.125 17.25 3.5V12.25C17.25 13.625 16.125 14.75 14.75 14.75Z" stroke="#777E90" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M1 6L9.125 11L17.25 6" stroke="#777E90" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            michelle.rivera@example.com</p>
+                            michelle.rivera@gmail.com</p>
                                  <p className=' ff_Read_Hat_text fw_400 fsize_18 clr_light_gray'>
                                     <svg className='me-3' width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.99785 0.622559C3.2083 0.622559 0.123464 3.7074 0.123463 7.49694C0.12346 14.1649 6.6103 19.2341 6.6103 19.2341C6.72103 19.3225 6.85849 19.3706 7.00015 19.3706C7.14182 19.3706 7.27928 19.3225 7.39001 19.2341C7.39001 19.2341 13.8769 14.1649 13.8768 7.49694C13.8768 3.7074 10.7874 0.622559 6.99785 0.622559V0.622559ZM6.99785 1.87287C10.1118 1.87287 12.6265 4.38294 12.6265 7.49694C12.6265 12.9519 7.68702 17.2617 7.00246 17.8454C6.32117 17.2646 1.37377 12.954 1.37377 7.49694C1.37377 4.38294 3.88385 1.87287 6.99785 1.87287Z" fill="#777E90"/>
