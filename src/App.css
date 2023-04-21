@@ -221,6 +221,9 @@
   background-repeat: no-repeat;
   background-position-x: 100%;
 }
+.bg_green_network {
+  display: none;
+}
 
 .Z_index_negative3 {
   z-index: -3;
@@ -390,7 +393,6 @@
 .clients_bg:hover {
   background: linear-gradient(270deg, #e3f9e7 0%, rgba(227, 249, 231, 0) 100%);
   border-radius: 0;
-  
 }
 
 .subscribe_box input {
@@ -588,12 +590,22 @@
   .position_absolute {
     position: absolute;
   }
-
+  .bg_green_network {
+    right: 0px;
+    top: 0;
+    transform: translateY(-50%);
+    width: 236px;
+    display: block;
+  }
   .w_50 {
     width: 50%;
   }
   .gap_71 {
     gap: 22px;
+  }
+  .green_button_hover_effect:hover {
+    background-color: var(--clr-dark-green) !important;
+    -webkit-text-stroke: 1px;
   }
 
   .gap_38 {

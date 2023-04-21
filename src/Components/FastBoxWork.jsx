@@ -53,7 +53,7 @@ const FastBoxWork = () => {
   };
   return (
     <>
-      <section className="py-sm-5">
+      <section id="tracking" className="py-sm-5">
         <Container className="pt-4">
           <Row className=" justify-content-center py-sm-5 pt-4 align-items-center">
             <Col xl={5}>

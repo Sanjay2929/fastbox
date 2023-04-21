@@ -40,34 +40,34 @@ const Navbar = () => {
             >
               <ul className="d-flex align-items-center gap_71 mb-0 w-100 justify-content-center sm_view hover_navbar">
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#home">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#tracking">
                     Tracking
                   </a>
                 </li>
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#shipping">
                     Shipping
                   </a>
                 </li>
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#location">
                     Locations
                   </a>
                 </li>
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#support">
                     Support
                   </a>
                 </li>
               </ul>
               <ul className="d-flex align-items-center gap_38 mb-0 sm_view hover_navbar">
                 <li>
-                  <a className="fsize_20 fw_400 clr_gray" href="#">
+                  <a className="fsize_20 fw_400 clr_gray" href="#signin">
                     Signin
                   </a>
                 </li>

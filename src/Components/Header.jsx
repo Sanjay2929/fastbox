@@ -15,7 +15,7 @@ const Header = () => {
         <div className=" position-absolute top-0 Z_index_negative3 d-md-block d-none ">
           <img src={green_bg_spot} alt="img" />
         </div>
-        <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative ">
+        <section id="home" className="d-flex flex-column flex-grow-1 justify-content-center position-relative ">
           <div className=" position-absolute greenstar d-sm-block d-none">
             <img src={greenstar} alt="star" />
           </div>
