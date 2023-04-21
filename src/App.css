@@ -267,7 +267,7 @@
 }
 
 .van_fastbox {
-  animation: van1 3s ease-in-out infinite 5s;
+  animation: van1 3s ease-in infinite 5s;
 }
 
 @keyframes van1 {
