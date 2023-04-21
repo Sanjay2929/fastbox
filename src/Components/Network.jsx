@@ -2,13 +2,18 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import van from "../Assets/img/png/fastbox_van.png";
 import Greenbutton from "./Greenbutton"
-
+import BackgroundimgGreen from '../Assets/img/png/network_bg_img.png'
 const Network = () => {
   return (
     <>
-      <section className="py-sm-4 my-2 position-relative overflow_x_hidden">
+      <section id="shipping" className="py-sm-4 my-2 position-relative">
         <div className="van_bg position-absolute top-0 start-0 d-lg-block d-none"></div>
-        <Container className="py-sm-5">
+        <img
+          className="position-absolute bg_green_network"
+          src={BackgroundimgGreen}
+          alt="bg-img"
+        />
+        <Container className="py-sm-5 position-relative z-3 overflow_hidden_992max">
           <Row className=" align-items-center py-5 justify-content-between">
             <Col lg={6} xxl={5}>
               <img
