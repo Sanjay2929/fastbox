@@ -16,29 +16,35 @@ const Header = () => {
           <img src={green_bg_spot} alt="img" />
         </div>
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative ">
-          <div className=" position-absolute greenstar">
+          <div className=" position-absolute greenstar d-sm-block d-none">
             <img src={greenstar} alt="star" />
           </div>
-          <div className="position-absolute orangestar">
+          <div className="position-absolute orangestar d-sm-block d-none">
             <img src={orangestar} alt="star" />
           </div>
           <Container className=" py-5 position-relative z_3">
             <Row className="py-lg-5">
               <Col lg={8} className="pb-5">
-                <h2 className="fsize_90 fw_700 ff_Anybody clr_dark_green pb-xxl-5 pb-4 lh_110">
+                <h2 className="fsize_90 fw_700 ff_Anybody clr_dark_green pb-xl-4 pb-sm-3 lh_110">
                   Largest and reliable courier service{" "}
                 </h2>
-                <h2 className="fsize_80 fw_700 ff_Anybody clr_dark_green ">
-                  <span className="border_green mb-5 ">in your city</span>
+                <h2 className="fsize_80 fw_700 ff_Anybody clr_dark_green position-relative border_green max_w_558">
+                  <span className=" mb-5 ">in your city</span>
+                  <div className="small_box1"></div>
+                  <div className="small_box4"></div>
+                  <div className="small_box3"></div>
+                  <div className="small_box2"></div>
                 </h2>
-                <p className="fw_400 fsize_25 clr_light_gray ff_Read_Hat_text py-xxl-5 mt-5 mb-4">
+                <p className="fw_400 fsize_25 clr_light_gray ff_Read_Hat_text py-xxl-5 mt-sm-5 mt-3 mb-4">
                   Duis aute irure dolor in reprehenderit in voluptate cillum
                   dolore
-                  <span className="d-xxl-block ">eu fugiat nulla pariatur.</span>
+                  <span className="d-xxl-block ">
+                    eu fugiat nulla pariatur.
+                  </span>
                 </p>
-                <div className="mt-3 border-0 max_w661 d-flex justify-content-between bg_extra_lightGreen border_radious10 flex-column flex-sm-row">
+                <div className="mt-3 border-0 max_w661 d-flex justify-content-between bg_extra_lightGreen border_radious10 flex-column flex-sm-row flex-sm-nowrap">
                   <input
-                    className=" padding_33_38 border-0  w-75 bg-transparent tracking_number fsize_20 fw_400 clr_light_gray ff_Read_Hat_text"
+                    className=" padding_33_38 border-0  w-100 bg-transparent tracking_number fsize_20 fw_400 clr_light_gray ff_Read_Hat_text"
                     type="number "
                     placeholder="Enter Tracking Number"
                   />

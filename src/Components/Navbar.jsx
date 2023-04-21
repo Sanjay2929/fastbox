@@ -38,7 +38,7 @@ const Navbar = () => {
                   : " d-flex align-items-center w-100 mob_view nav_left0"
               }
             >
-              <ul className="d-flex align-items-center gap_71 mb-0 w-100 justify-content-center sm_view">
+              <ul className="d-flex align-items-center gap_71 mb-0 w-100 justify-content-center sm_view hover_navbar">
                 <li>
                   <a className="fsize_20 fw_400 clr_gray" href="#">
                     Home
@@ -65,7 +65,7 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-              <ul className="d-flex align-items-center gap_38 mb-0 sm_view">
+              <ul className="d-flex align-items-center gap_38 mb-0 sm_view hover_navbar">
                 <li>
                   <a className="fsize_20 fw_400 clr_gray" href="#">
                     Signin
