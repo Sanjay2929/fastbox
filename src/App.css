@@ -555,7 +555,7 @@
 .clients_bg:hover {
   background: linear-gradient(270deg, #E3F9E7 0%, rgba(227, 249, 231, 0) 100%);
   border-radius: 0;
-  
+
 }
 
 .subscribe_box input {
@@ -583,6 +583,16 @@
     border-radius: 20px;
     padding: 32px 20px 27px 15px;
   }
+
+  .w_75 {
+    width: 55%;
+  }
+}
+
+@media (min-width:1400px) {
+  .w_75 {
+    width: 75%;
+  }
 }
 
 @media (min-width:1200px) {
@@ -595,8 +605,6 @@
     right: 0;
   }
 }
-
-@media (min-width:992px) {}
 
 @media (min-width: 992px) {
   .position_absolute {
@@ -621,7 +629,8 @@
     border-left: 2px dashed rgba(119, 126, 144, 0.4);
     height: 80%;
     top: 30px;
-    left: 0;
+    left: -30px;
+    
   }
 
   .border_right::after {
@@ -630,23 +639,13 @@
     border-left: 2px dashed rgba(119, 126, 144, 0.4);
     height: 80%;
     top: 30px;
-    right: 0;
+    right: 8px;
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .bradius_46 {
-    border-radius: 46px;
-  }
-
-  .process_work::after {
-    content: "";
-    height: 75%;
-    width: 1px;
-    border-right: 2px dashed rgba(151, 87, 215, 0.4);
-    position: absolute;
-    right: 0px;
-    transform: translateY(12.5%);
+    border-radius: 5px;
   }
 }
 
@@ -670,5 +669,19 @@
     left: -1px;
     top: 0;
     z-index: 3;
+  }
+
+  .bradius_46 {
+    border-radius: 46px;
+  }
+
+  .process_work::after {
+    content: "";
+    height: 75%;
+    width: 1px;
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+    position: absolute;
+    right: 0px;
+    transform: translateY(12.5%);
   }
 }

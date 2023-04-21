@@ -11,15 +11,15 @@ const Calculateprice = () => {
         <Row/>
         <Col/>
         <Container className='containerxxxl my-5 pt-5'>
-            <Row className='bg_lightGreen bradius_46 p-sm-5 pb-5 position-relative'>
+            <Row className='bg_lightGreen bradius_46 p-sm-5 pb-3 px-3 position-relative'>
                 <Col lg={6} className='pe-sm-5 pt-3'>
                     <p className='ff_Anybody fw_700 fsize_48 clr_almost_black'>Calculate your price</p>
                     <p className='ff_Read_Hat_text fw_400 fsize_22 clr_light_gray w_492'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
                     <div className='position_absolute bottom-0'>
-                        <img className='w-50' src={calculatemen} alt="calculatmen" />
+                        <img className='w_75' src={calculatemen} alt="calculatmen" />
                     </div>
                 </Col>
-                <Col lg={6} className='bg_white bradius_46 p-5'>
+                <Col lg={6} className='bg_white bradius_46 p-sm-5 p-3'>
                     <div>
                         <span className='cal_icon_box'>
                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
