@@ -1,7 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import calculatemen from '../Assets/img/png/calculatemen.png'
-import Btncal from './Btncal'
+import Greenbutton from './Greenbutton'
+
 
 const Calculateprice = () => {
   return (
@@ -84,7 +85,7 @@ const Calculateprice = () => {
                         </div>
                     </div>
                     <div className='pt-5'>
-                        <Btncal/>
+                        <Greenbutton Green_text="Calculate"/>
                     </div>
                 </Col>
             </Row>

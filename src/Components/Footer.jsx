@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import logo from '../Assets/img/png/logo.png'
 import fastbox from '../Assets/img/png/Fast-box.png'
 import footerimg from '../Assets/img/png/footer.png'
+import Greenbutton from './Greenbutton'
 
 const Footer = () => {
   return (
@@ -55,7 +56,9 @@ const Footer = () => {
                         <p className='ff_Anybody fw_700 fsize_22 clr_dark_green'>Subscribe</p>
                         <input type="text" placeholder='Name' className='ff_Read_Hat_text fw_400 fsize_18 clr_light_gray mt-md-5 w-100'/> 
                         <input type="email" placeholder='Email' className='ff_Read_Hat_text fw_400 fsize_18 clr_light_gray mt-4 w-100' /> 
-                        <button className='ff_Poppins fw_400 fsize_22 border-0 bg_green clr_white btncal mt-5'>Subscribe</button>
+                        <div className='mt-5'>
+                            <Greenbutton Green_text="Subscribe"/>
+                        </div>
                     </div>
                 </Col>
             </Row>

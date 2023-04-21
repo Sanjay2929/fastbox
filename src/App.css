@@ -221,6 +221,7 @@
   background-repeat: no-repeat;
   background-position-x: 100%;
 }
+
 .Z_index_negative3 {
   z-index: -3;
 }
@@ -389,7 +390,7 @@
 .clients_bg:hover {
   background: linear-gradient(270deg, #e3f9e7 0%, rgba(227, 249, 231, 0) 100%);
   border-radius: 0;
-  width: 108%;
+  
 }
 
 .subscribe_box input {
