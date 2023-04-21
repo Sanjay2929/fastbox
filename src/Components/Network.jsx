@@ -13,7 +13,7 @@ const Network = () => {
           src={BackgroundimgGreen}
           alt="bg-img"
         />
-        <Container className="py-sm-5 position-relative z-3">
+        <Container className="py-sm-5 position-relative z-3 overflow_hidden_992max">
           <Row className=" align-items-center py-5 justify-content-between">
             <Col lg={6} xxl={5}>
               <img

@@ -267,7 +267,7 @@
 }
 
 .van_fastbox {
-  animation: van1 5s ease-in-out infinite 5s;
+  animation: van1 3s ease-in-out infinite 5s;
 }
 
 @keyframes van1 {
@@ -536,7 +536,9 @@
   .d_none {
     display: none;
   }
-
+.overflow_hidden_992max{
+  overflow: hidden;
+}
   .mob_view {
     position: fixed;
     top: 0;
